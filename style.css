@@ -1,0 +1,57 @@
+/*!
+Theme Name: qurandl
+Theme URI: https://qurandl.com
+Author: Edris Ranjbar
+Author URI: https://qurandl.com/
+Description: Quran download
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: qurandl
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+body{
+	color: #fff;
+}
+.site-main{
+	height: 550px;
+	min-height: 550px;
+	width:80%;
+	padding: 30px 10px;
+	background: rgba(10,10,10,.5);
+	position: relative;
+	margin: 0 auto;
+}
+.site-header{
+	padding: 0;
+	text-align: center;
+}
+.site-header nav{
+	padding: 10px;
+}
+nav ul li{
+	display: inline;
+	margin-left: 5px;
+	color: #000;
+}
+nav ul li:hover{
+	color: #ffd600;
+}
+.post-thumbnail img{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+footer{
+	padding: 10px;
+	background: #fff;
+}
+footer .copyright{
+	text-align: center;
+	color: #000;
+	font-size: 14px;
+}
+a,a:hover{
+	text-decoration: none !important;
+	color: inherit;
+}
