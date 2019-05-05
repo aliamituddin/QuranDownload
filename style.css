@@ -10,8 +10,17 @@ License URI: LICENSE
 Text Domain: qurandl
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 */
+
+@font-face {
+	font-family: samim;
+	src: url("fonts/Samim-WOL.ttf");
+	src: url("fonts/Samim-WOL.eot");
+	src: url("fonts/Samim-WOL.woff");
+}
+
 body{
 	color: #fff;
+	font-family: samim;
 }
 .site-main{
 	height: 550px;
@@ -27,12 +36,17 @@ body{
 	text-align: center;
 }
 .site-header nav{
-	padding: 10px;
+    padding: 20px 10px 4px 10px
 }
+nav{padding-top: 8px;}
 nav ul li{
 	display: inline;
-	margin-left: 5px;
+	margin-left: 15px;
 	color: #000;
+	font-size: 22px;
+    background: #b3b3b3;
+    border-radius: 30px;
+    padding: 8px;
 }
 nav ul li:hover{
 	color: #ffd600;

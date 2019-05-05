@@ -1,20 +1,7 @@
-<?php
-/**
- * The template for displaying the footer
- *
- * Contains the closing of the #content div and all content after.
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
- * @package qurandl
- */
-
-?>
-
 	</div><!-- #content -->
 
 	<footer class="site-footer">
-        <p class="copyright">Quran download</p>
+        <p class="copyright">تمامی حقوق برای قران دانلود محفوظ میباشد</p>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
