@@ -60,7 +60,10 @@ nav ul li:hover{
 .entry-title{
 	text-align: center;
 	padding-top: 10px;
-	color: #F6BD60;
+	color: #84A59D;
+}
+.entry-title:hover{
+	color: #404d49;
 }
 footer{
 	padding: 50px 0 20px 0;

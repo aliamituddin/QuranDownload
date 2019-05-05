@@ -4,22 +4,20 @@
 		<main id="main" class="site-main">
             <div class="row">
 		<?php
-		if ( have_posts() ) {
-
-			/* Start the Loop */
-			while ( have_posts() ) {
-                the_post();
-                get_template_part('template-parts/content', get_post_type());
-            }
+		if ( have_posts() ) :
+            while ( have_posts() ) :
+				the_post();
+				get_template_part( 'template-parts/content', get_post_type() );
+			endwhile;
 			the_posts_navigation();
-		}else {
+		else :
+			get_template_part( 'template-parts/content', 'none' );
 
-            get_template_part('template-parts/content', 'none');
-
-        }
+		endif;
 		?>
             </div>
-            <?php get_footer(); ?>
 		</main><!-- #main -->
-    </div><!-- #primary -->
+	</div><!-- #primary -->
 
+<?php
+get_footer();
