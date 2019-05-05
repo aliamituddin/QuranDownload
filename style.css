@@ -21,13 +21,13 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 body{
 	color: #fff;
 	font-family: samim;
+	background-color: #ffffff;
 }
 .site-main{
 	height: 550px;
 	min-height: 550px;
-	width:80%;
-	padding: 30px 10px;
-	background: rgba(10,10,10,.5);
+	min-width: 90%;
+	max-width: 95%;
 	position: relative;
 	margin: 0 auto;
 }
@@ -36,34 +36,41 @@ body{
 	text-align: center;
 }
 .site-header nav{
-    padding: 20px 10px 4px 10px
+    padding: 20px 10px 4px 10px;
+	background-color: #84A59D;
 }
 nav{padding-top: 8px;}
 nav ul li{
 	display: inline;
 	margin-left: 15px;
-	color: #000;
+	color: #BDD358;
 	font-size: 22px;
-    background: #b3b3b3;
-    border-radius: 30px;
-    padding: 8px;
 }
 nav ul li:hover{
-	color: #ffd600;
+	color: #E5E059;
 }
 .post-thumbnail img{
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+}
+.entry-title{
+	text-align: center;
+	padding-top: 10px;
+	color: #F6BD60;
 }
 footer{
-	padding: 10px;
-	background: #fff;
+	padding: 50px 0 20px 0;
+	background: #84A59D;
+	margin-top: 50px;
 }
 footer .copyright{
 	text-align: center;
 	color: #000;
-	font-size: 14px;
+	font-size: 16px;
 }
 a,a:hover{
 	text-decoration: none !important;

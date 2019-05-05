@@ -14,7 +14,7 @@
 <body <?php body_class(); ?>>
 <div id="page" class="site fuild-container">
 	<header class="site-header">
-		<nav id="site-navigation" class="navbar navbar-expand-lg navbar-light bg-light">
+		<nav id="site-navigation" class="navbar navbar-expand-lg navbar-light">
             <div class="collapse navbar-collapse" id="navbarNav">
                 <?php
                 wp_nav_menu( array(
