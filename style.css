@@ -65,6 +65,11 @@ nav ul li:hover{
 .entry-title:hover{
 	color: #404d49;
 }
+/* Qari section */
+.qari{
+	background: rgba(255, 214, 0, 0.5);
+	text-align: center;
+}
 footer{
 	padding: 50px 0 20px 0;
 	background: #84A59D;
