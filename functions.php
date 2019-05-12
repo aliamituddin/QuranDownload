@@ -74,10 +74,10 @@ if ( ! function_exists( 'qurandl_setup' ) ) :
 		 * @link https://codex.wordpress.org/Theme_Logo
 		 */
 		add_theme_support( 'custom-logo', array(
-			'height'      => 250,
-			'width'       => 250,
-			'flex-width'  => true,
-			'flex-height' => true,
+			'height'      => 150,
+			'width'       => 200,
+			'flex-width'  => false,
+			'flex-height' => false,
 		) );
 	}
 endif;

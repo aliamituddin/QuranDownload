@@ -1,35 +1,6 @@
-<?php
-/**
- * Template part for displaying results in search pages
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package qurandl
- */
-
-?>
-
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
-		<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
-
-		<?php if ( 'post' === get_post_type() ) : ?>
-		<div class="entry-meta">
-			<?php
-			qurandl_posted_on();
-			qurandl_posted_by();
-			?>
-		</div><!-- .entry-meta -->
-		<?php endif; ?>
-	</header><!-- .entry-header -->
-
-	<?php qurandl_post_thumbnail(); ?>
-
-	<div class="entry-summary">
-		<?php the_excerpt(); ?>
-	</div><!-- .entry-summary -->
-
-	<footer class="entry-footer">
-		<?php qurandl_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
-</article><!-- #post-<?php the_ID(); ?> -->
+<article id="post-<?php the_ID(); ?>" class="col-md-3 col-sm-6 mt-3 mb-3">
+    <?php
+    qurandl_post_thumbnail();
+    the_title( '<h3 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h3>' );
+    ?>
+</article>
