@@ -6,7 +6,8 @@
  *
  * @package qurandl
  */
-
+// Register Custom Navigation Walker for function.php
+require_once('class-wp-bootstrap-navwalker.php');
 if ( ! function_exists( 'qurandl_setup' ) ) :
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.

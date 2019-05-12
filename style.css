@@ -35,7 +35,6 @@ body{
 .site-header{
 	padding: 0;
 	text-align: center;
-	border-bottom: 4px solid #e5f1b8;
 }
 .site-header nav{
     padding: 20px 10px 4px 10px;
@@ -52,20 +51,23 @@ nav ul li:hover{
 	color: #E5E059;
 }
 .post-thumbnail img{
-	width: 200px;
-	height: 200px;
+	width: 150px;
+	height: 150px;
 	border-radius: 50%;
 	display: block;
 	position: relative;
 	margin: 0 auto;
 }
+.post-thumbnail img:hover{
+	opacity: 0.8;
+}
+.entry-title :hover{
+	color: #404d49;
+}
 .entry-title{
 	text-align: center;
 	padding-top: 10px;
 	color: #84A59D;
-}
-.entry-title:hover{
-	color: #404d49;
 }
 /* Qari section */
 .qari{

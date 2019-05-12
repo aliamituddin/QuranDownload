@@ -15,20 +15,38 @@
 <body <?php body_class(); ?>>
 <div id="page" class="site fuild-container">
 	<header class="site-header">
-		<nav id="site-navigation" class="navbar navbar-expand-lg navbar-light">
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <?php if ( function_exists( 'the_custom_logo' ) ) {
+        <div class="navbar navbar-expand-lg bg-dark" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle bg-light border-0 p-1 m-l-2" data-toggle="collapse" data-target=".navbar-collapse">
+                    <i class="fa fa-stream"></i>
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <?php if ( function_exists( 'the_custom_logo' ) ) {
                 the_custom_logo();
-                }?>
-                <?php
+            }?>
+            <div class="navbar-collapse collapse">
+                <?php  /* menu */
                 wp_nav_menu( array(
-                    'theme_location' => 'menu-1',
-                    'menu_id'        => 'primary-menu',
-                ) );
+                        'menu'              => 'menu-1',
+                        'theme_location'    => 'primary-menu',
+                        'depth'             => 5,
+                        'container'         => 'div',
+                        'container_class'   => 'collapse navbar-collapse navbar-ex1-collapse ',
+                        'menu_class'        => 'nav navbar-nav  ',
+                        'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+                        'walker'            => new wp_bootstrap_navwalker())
+                );
+                get_search_form();
                 ?>
             </div>
-            <?php get_search_form(); ?>
-		</nav><!-- #site-navigation -->
+        </div><!-- Navigation -->
+
+
+        ?>
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
