@@ -1,11 +1,59 @@
 <?php
-/**
- * qurandl functions and definitions
- *
- * @link https://developer.wordpress.org/themes/basics/theme-functions/
- *
- * @package qurandl
- */
+
+// for each sourah
+function quran_row($atts)
+{
+    switch ($atts['number']){
+        case 01:
+            $sourah = 'الفاتحه';
+            break;
+        case 02:
+                $sourah = 'البقره';
+                break;
+        case 03:
+            $sourah = 'ال عمران';
+            break;
+
+    }
+    return "
+    <tr>
+        <td width='5%'>" . $atts['number'] . "</td>
+        <td width='10%'>$sourah</td>
+        <td width='5%'><a href='http://dl.qurandl.com/" . $atts['src'] . "'><button type=\"button\" class=\"btn btn-success\">دانلود</button></a></td>
+        <td width=\"30%\"><audio src='http://dl.qurandl.com/" . $atts['src'] . "' controls></audio></td>
+    </tr>
+    ";
+}
+add_shortcode('quran', 'quran_row');
+
+// For start table
+function table_start()
+{
+    return "
+    <table class=\"table table-striped\">
+        <thead class=\"thead-dark\">
+        <tr>
+        <th width=\"5%\">شماره</th>
+        <th width=\"10%\">نام سوره</th>
+        <th width=\"5%\">دانلود</th>
+        <th width=\"30%\">پخش آنلاین</th>
+        </tr>
+        </thead>
+        <tbody>
+    ";
+}
+add_shortcode('table_start', 'table_start');
+
+// End table
+function table_end(){
+    return "
+            </tbody>
+        </table>
+    </div>
+    ";
+}
+add_shortcode('table_end','table_end');
+
 // Register Custom Navigation Walker for function.php
 require_once('class-wp-bootstrap-navwalker.php');
 if ( ! function_exists( 'qurandl_setup' ) ) :

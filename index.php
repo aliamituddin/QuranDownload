@@ -13,9 +13,8 @@
 		endif;
 		?>
             </div>
-            <section class="jumbotron text-center mt-5 mx-auto col-md-10 bg-dark">
+            <section class="jumbotron text-center mt-5 mx-auto col-md-10 bg-info">
                 <div class="container">
-<!--                    <h3 class="text-primary jumbotron-heading mb-3">قران دانلود</h3>-->
                     <p class="lead text-muted">قران دانلود یک پروژه ی متن باز اسلامی است که در جهت انتشار هرچه بیشتر قران تلاش می کند.</p>
                     <p class="lead">برای کسب اطلاعات بیشتر در رابطه با این پروژه به صفحه ی درباره ی ما مراجعه کنید.</p>
                     <a class="btn btn-info" href="/about">درباره ی قران دانلود</a>
