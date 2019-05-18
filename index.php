@@ -17,8 +17,8 @@
                 <div class="container">
                     <p class="lead text-muted">قران دانلود یک پروژه ی متن باز اسلامی است که در جهت انتشار هرچه بیشتر قران تلاش می کند.</p>
                     <p class="lead">برای کسب اطلاعات بیشتر در رابطه با این پروژه به صفحه ی درباره ی ما مراجعه کنید.</p>
-                    <a class="btn btn-info" href="/about">درباره ی قران دانلود</a>
-                    <a class="btn btn-success" href="pay">کمک مالی به پروژه</a>
+                    <a class="btn btn-info" href="<?=get_site_url()?>/about">درباره ی قران دانلود</a>
+                    <a class="btn btn-success" href="#">کمک مالی به پروژه</a>
                 </div>
             </section>
             <?php get_footer(); ?>
