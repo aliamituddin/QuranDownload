@@ -1,6 +1,6 @@
-	<div id="primary" class="content-area">
-		<main id="main">
 <?php get_header();?>
+<div id="primary" class="content-area">
+		<main id="main">
             <h2 class="text-primary m-3 mt-5 text-center">دانلود قران با صوت قاریان برتر</h2>
             <br>
             <div class="row col-md-10 mx-auto">
@@ -21,7 +21,7 @@
                     <a class="btn btn-success" href="#">کمک مالی به پروژه</a>
                 </div>
             </section>
-            <?php get_footer(); ?>
 		</main><!-- #main -->
     </div><!-- #primary -->
+<?php get_footer(); ?>
 

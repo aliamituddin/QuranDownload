@@ -68,16 +68,15 @@ nav ul li:hover{
 	text-align: center;
 	padding-top: 10px;
 	color: #84A59D;
+	margin-bottom: 45px;
 }
 /* Qari section */
 .qari{
-	background: rgba(255, 214, 0, 0.5);
 	text-align: center;
 }
 footer{
 	padding: 50px 0 20px 0;
 	background: #84A59D;
-	margin-top: 50px;
 }
 footer .copyright{
 	text-align: center;

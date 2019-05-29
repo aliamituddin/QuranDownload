@@ -1,6 +1,6 @@
+<?php get_header();?>
 <section id="primary" class="content-area">
 		<main id="main">
-            <?php get_header();?>
             <h3 align="center">نتیجه ی جست و جو</h3>
             <?php if ( have_posts() ) : ?>
             <div class="row">
@@ -16,7 +16,6 @@
 		endif;
 		?>
             </div>
-            <?php get_footer();?>
 		</main><!-- #main -->
     </section><!-- #primary -->
-
+<?php get_footer();?>

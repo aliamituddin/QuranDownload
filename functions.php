@@ -1,5 +1,8 @@
 <?php
 
+remove_filter( 'the_content', 'wpautop' );
+
+
 // for each sourah
 function quran_row($atts)
 {

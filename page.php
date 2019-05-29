@@ -1,7 +1,7 @@
-	<div id="primary" class="content-area">
+<?php get_header();?>
+<div id="primary" class="content-area">
 		<main id="main">
 		<?php
-        get_header();
 		while ( have_posts() ) :
 			the_post();
 			get_template_part( 'template-parts/content', 'page' );
@@ -11,6 +11,6 @@
 */
 		endwhile; // End of the loop.
 		?>
-        <?php get_footer(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
+<?php get_footer(); ?>
