@@ -11,12 +11,341 @@ function quran_row($atts)
             $sourah = 'الفاتحه';
             break;
         case 02:
-                $sourah = 'البقره';
-                break;
+            $sourah = 'البقره';
+            break;
         case 03:
             $sourah = 'ال عمران';
             break;
-
+        case 04:
+            $sourah = 'النساء';
+            break;
+        case 05:
+            $sourah = 'المائده';
+            break;
+        case 06:
+            $sourah = 'الانعام';
+            break;
+        case 07:
+            $sourah = 'الاعراف';
+            break;
+        case 8:
+            $sourah = 'الانفال';
+            break;
+        case 9:
+            $sourah = 'التوبه';
+            break;
+        case 10:
+            $sourah = 'یونس';
+            break;
+        case 11:
+            $sourah = 'هود';
+            break;
+        case 12:
+            $sourah = 'یوسف';
+            break;
+        case 13:
+            $sourah = 'الرعد';
+            break;
+        case 14:
+            $sourah = 'ابراهیم';
+            break;
+        case 15:
+            $sourah = 'الحجر';
+            break;
+        case 16:
+            $sourah = 'النحل';
+            break;
+        case 17:
+            $sourah = 'الاسراء';
+            break;
+        case 18:
+            $sourah = 'الکهف';
+            break;
+        case 19:
+            $sourah = 'مریم';
+            break;
+        case 20:
+            $sourah = 'طه';
+            break;
+        case 21:
+            $sourah = 'الانبیاء';
+            break;
+        case 22:
+            $sourah = 'الحج';
+            break;
+        case 23:
+            $sourah = 'المومنون';
+            break;
+        case 24:
+            $sourah = 'النور';
+            break;
+        case 25:
+            $sourah = 'الفرقان';
+            break;
+        case 26:
+            $sourah = 'الشعراء';
+            break;
+        case 27:
+            $sourah = 'النمل';
+            break;
+        case 28:
+            $sourah = 'القصص';
+            break;
+        case 29:
+            $sourah = 'العنکبوت';
+            break;
+        case 30:
+            $sourah = 'الروم';
+            break;
+        case 31:
+            $sourah = 'لقمان';
+            break;
+        case 32:
+            $sourah = 'السجده';
+            break;
+        case 33:
+            $sourah = 'الاحزاب';
+            break;
+        case 34:
+            $sourah = 'سبا';
+            break;
+        case 35:
+            $sourah = 'فاطر';
+            break;
+        case 36:
+            $sourah = 'یس';
+            break;
+        case 37:
+            $sourah = 'الصافات';
+            break;
+        case 38:
+            $sourah = 'ص';
+            break;
+        case 39:
+            $sourah = 'الزمر';
+            break;
+        case 40:
+            $sourah = 'غافر';
+            break;
+        case 41:
+            $sourah = 'فصلت';
+            break;
+        case 42:
+            $sourah = 'الشوری';
+            break;
+        case 43:
+            $sourah = 'الزخرف';
+            break;
+        case 44:
+            $sourah = 'الدخان';
+            break;
+        case 45:
+            $sourah = 'الجاثیه';
+            break;
+        case 46:
+            $sourah = 'الاحقاف';
+            break;
+        case 47:
+            $sourah = 'محمد';
+            break;
+        case 48:
+            $sourah = 'الفتح';
+            break;
+        case 49:
+            $sourah = 'الحجرات';
+            break;
+        case 50:
+            $sourah = 'ق';
+            break;
+        case 51:
+            $sourah = 'الذاریات';
+            break;
+        case 52:
+            $sourah = 'الطور';
+            break;
+        case 53:
+            $sourah = 'النجم';
+            break;
+        case 54:
+            $sourah = 'القمر';
+            break;
+        case 55:
+            $sourah = 'الرحمن';
+            break;
+        case 56:
+            $sourah = 'الواقعه';
+            break;
+        case 57:
+            $sourah = 'الحدید';
+            break;
+        case 58:
+            $sourah = 'المجادله';
+            break;
+        case 59:
+            $sourah = 'الحشر';
+            break;
+        case 60:
+            $sourah = 'الممتحنه';
+            break;
+        case 61:
+            $sourah = 'الصف';
+            break;
+        case 62:
+            $sourah = 'الجمعه';
+            break;
+        case 63:
+            $sourah = 'المنافقون';
+            break;
+        case 64:
+            $sourah = 'التغابن';
+            break;
+        case 65:
+            $sourah = 'الطلاق';
+            break;
+        case 66:
+            $sourah = 'التحریم';
+            break;
+        case 67:
+            $sourah = 'الملک';
+            break;
+        case 68:
+            $sourah = 'القلم';
+            break;
+        case 69:
+            $sourah = 'الحاقه';
+            break;
+        case 70:
+            $sourah = 'المعارج';
+            break;
+        case 71:
+            $sourah = 'نوح';
+            break;
+        case 72:
+            $sourah = 'الجن';
+            break;
+        case 73:
+            $sourah = 'المزمل';
+            break;
+        case 74:
+            $sourah = 'المدثر';
+            break;
+        case 75:
+            $sourah = 'القیامه';
+            break;
+        case 76:
+            $sourah = 'الانسان';
+            break;
+        case 77:
+            $sourah = 'المرسلات';
+            break;
+        case 78:
+            $sourah = 'النباء';
+            break;
+        case 79:
+            $sourah = 'النازعات';
+            break;
+        case 80:
+            $sourah = 'عبس';
+            break;
+        case 81:
+            $sourah = 'التکویر';
+            break;
+        case 82:
+            $sourah = 'الانفطار';
+            break;
+        case 83:
+            $sourah = 'المطففین';
+            break;
+        case 84:
+            $sourah = 'الانشقاق';
+            break;
+        case 85:
+            $sourah = 'البروج';
+            break;
+        case 86:
+            $sourah = 'الطارق';
+            break;
+        case 87:
+            $sourah = 'الاعلی';
+            break;
+        case 89:
+            $sourah = 'الفجر';
+            break;
+        case 90:
+            $sourah = 'البلد';
+            break;
+        case 91:
+            $sourah = 'الشمس';
+            break;
+        case 92:
+            $sourah = 'اللیل';
+            break;
+        case 93:
+            $sourah = 'الضحی';
+            break;
+        case 94:
+            $sourah = 'الشرح';
+            break;
+        case 95:
+            $sourah = 'التین';
+            break;
+        case 96:
+            $sourah = 'العلق';
+            break;
+        case 97:
+            $sourah = 'القدر';
+            break;
+        case 98:
+            $sourah = 'البینه';
+            break;
+        case 99:
+            $sourah = 'الزلزله';
+            break;
+        case 100:
+            $sourah = 'العادیات';
+            break;
+        case 101:
+            $sourah = 'القارعه';
+            break;
+        case 102:
+            $sourah = 'التکاثر';
+            break;
+        case 103:
+            $sourah = 'العصر';
+            break;
+        case 104:
+            $sourah = 'الهمزه';
+            break;
+        case 105:
+            $sourah = 'الفیل';
+            break;
+        case 106:
+            $sourah = 'قریش';
+            break;
+        case 107:
+            $sourah = 'الماعون';
+            break;
+        case 108:
+            $sourah = 'الکوثر';
+            break;
+        case 109:
+            $sourah = 'الکافرون';
+            break;
+        case 110:
+            $sourah = 'النصر';
+            break;
+        case 111:
+            $sourah = 'المسد';
+            break;
+        case 112:
+            $sourah = 'الاخلاص';
+            break;
+        case 113:
+            $sourah = 'الفلق';
+            break;
+        case 114:
+            $sourah = 'الناس';
+            break;
     }
     return "
     <tr>
