@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/qurandl.iml" filepath="$PROJECT_DIR$/.idea/qurandl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/QuranDownload.iml" filepath="$PROJECT_DIR$/.idea/QuranDownload.iml" />
     </modules>
   </component>
 </project>
