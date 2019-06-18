@@ -348,11 +348,11 @@ function quran_row($atts)
             break;
     }
     return "
-    <tr>
-        <td class='sourah-number'>" . $atts['number'] . "</td>
-        <td>$sourah</td>
-        <td><a href='https://dl.qurandl.com/" . $atts['src'] . "'><i class='fa fa-download'></i></a></td>
-        <td><audio src='https://dl.qurandl.com/" . $atts['src'] . "' controls preload='none' style='width:100%; max-width: 600px;'></audio></td>
+    <tr class='row'>
+        <td class='col-md-1 col-3'>" . $atts['number'] . "</td>
+        <td class='col-md-3 col-3'>$sourah</td>
+        <td class='col-md-2 col-6'><a href='https://dl.qurandl.com/" . $atts['src'] . "'><i class='fa fa-download'></i></a></td>
+        <td class='col-md-6 col-12'><audio src='https://dl.qurandl.com/" . $atts['src'] . "' controls preload='none'></audio></td>
     </tr>
     ";
 }
@@ -364,11 +364,11 @@ function table_start()
     return "
     <table class=\"table table-striped\">
         <thead class=\"thead-dark\">
-            <tr>
-                <th class='sourah-number'>شماره</th>
-                <th>نام سوره</th>
-                <th>دانلود</th>
-                <th>پخش آنلاین</th>
+            <tr class='row'>
+                <th class='col-md-1 col-3'>شماره</th>
+                <th class='col-md-3 col-4'>نام سوره</th>
+                <th class='col-md-2 col-5'>دانلود</th>
+                <th class='col-md-6 mobilehidden'>پخش آنلاین</th>
             </tr>
         </thead>
         <tbody>

@@ -1,4 +1,4 @@
-<article id="post-<?php the_ID(); ?>" class="mt-3" style="width: 100%; overflow: auto;">
+<article id="post-<?php the_ID(); ?>" class="mt-3">
         <?php
             qurandl_post_thumbnail();
             the_title( '<h3 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h3>' );
