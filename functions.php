@@ -352,7 +352,7 @@ function quran_row($atts)
         <td width='5%'>" . $atts['number'] . "</td>
         <td width='10%'>$sourah</td>
         <td width='5%'><a class='btn btn-success' href='https://dl.qurandl.com/" . $atts['src'] . "'>دانلود</a></td>
-        <td width=\"30%\"><audio src='https://dl.qurandl.com/" . $atts['src'] . "' controls></audio></td>
+        <td width=\"30%\"><audio src='https://dl.qurandl.com/" . $atts['src'] . "' controls preload='none'></audio></td>
     </tr>
     ";
 }
