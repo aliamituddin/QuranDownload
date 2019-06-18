@@ -349,7 +349,7 @@ function quran_row($atts)
     }
     return "
     <tr>
-        <td>" . $atts['number'] . "</td>
+        <td class='sourah-number'>" . $atts['number'] . "</td>
         <td>$sourah</td>
         <td><a href='https://dl.qurandl.com/" . $atts['src'] . "'><i class='fa fa-download'></i></a></td>
         <td><audio src='https://dl.qurandl.com/" . $atts['src'] . "' controls preload='none' style='width:100%; max-width: 600px;'></audio></td>
@@ -364,12 +364,12 @@ function table_start()
     return "
     <table class=\"table table-striped\">
         <thead class=\"thead-dark\">
-        <tr>
-        <th width=\"5%\">شماره</th>
-        <th width=\"10%\">نام سوره</th>
-        <th width=\"5%\">دانلود</th>
-        <th width=\"30%\">پخش آنلاین</th>
-        </tr>
+            <tr>
+                <th class='sourah-number'>شماره</th>
+                <th>نام سوره</th>
+                <th>دانلود</th>
+                <th>پخش آنلاین</th>
+            </tr>
         </thead>
         <tbody>
     ";
