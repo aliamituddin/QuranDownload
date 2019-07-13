@@ -5,7 +5,7 @@
         ?>
     <div class="row d-block mx-auto px-5">
         <div class="form-group">
-            <input class="form-control" id="myFunction()" placeholder="نام سوره ی مورد نظر را جست و جو کنید...">
+            <input class="form-control" type="text" id="myInput" onkeyup="LiveSearch()" placeholder="نام سوره ی مورد نظر را جست و جو کنید...">
         </div>
     </div>
         <?php
