@@ -362,7 +362,7 @@ add_shortcode('quran', 'quran_row');
 function table_start()
 {
     return "
-    <table class=\"table table-striped\">
+    <table class=\"table table-striped\" id=\"QuranTable\">
         <thead class=\"thead-dark\">
             <tr class='row'>
                 <th class='col-md-1 col-3'>شماره</th>
