@@ -2,6 +2,9 @@
 <div id="primary" class="content-area">
 		<main id="main">
             <h2 class="text-primary m-3 mt-5 text-center">دانلود قران با صوت قاریان برتر</h2>
+            <div class="col-6 mx-auto">
+                <input class="form-control form-control-lg" name"search"="" id="search" placeholder="نام قاری مورد نظر را وارد کنید">
+            </div>
             <br>
             <div class="row col-md-10 mx-auto">
 		<?php
