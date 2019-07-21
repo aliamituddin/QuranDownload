@@ -1,5 +1,5 @@
 # Quran Download
-to visit **Quran Download** website [Click here] ('https://qurandl.com')!
+to visit **Quran Download** website [Click here](https://qurandl.com)!
 ## Contact us
 _If you want to contact us about this project; follow the bellows links:_
 <br>
