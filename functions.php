@@ -358,6 +358,13 @@ function quran_row($atts)
 }
 add_shortcode('quran', 'quran_row');
 
+// For Download button
+function downloadLink($atts)
+{
+    return "<a href='".$atts['link']."'><button class='btn btn-primary mx-auto mb-4'>دانلود کل قران</button></a>";
+}
+add_shortcode('download','downloadLink');
+
 // For start table
 function table_start()
 {
